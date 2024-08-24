@@ -3,7 +3,7 @@ import "./DesCardP.css";
 const DesCardP = () => {
   return (
     <div className="DesCardP">
-      <img src="/assets/img/p2.png" alt="" />
+      <img src="/protfolioVite/assets/img/p2.png" alt="" />
       <div className="bodyDesCardP">
         <div className="gropBtnPS">
           <div className="gropPS">
@@ -11,7 +11,7 @@ const DesCardP = () => {
             <span>12-5-2024</span>
           </div>
           <button>
-            <img src="/assets/img/i1.svg" alt="" />
+            <img src="/protfolioVite/assets/img/i1.svg" alt="" />
           </button>
         </div>
         <p>

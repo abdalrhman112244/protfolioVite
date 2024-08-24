@@ -8,16 +8,16 @@ const Footer = () => {
       <p>Develpoment by AbdAlRhman</p>
       <div className="GropS">
         <Link >
-            <img src="/assets/img/facebook.png" alt="" />
+            <img src="/protfolioVite/assets/img/facebook.png" alt="" />
         </Link>
         <Link >
-            <img src="/assets/img/instagram.png" alt="" />
+            <img src="/protfolioVite/assets/img/instagram.png" alt="" />
         </Link>
         <Link >
-            <img src="/assets/img/linkedin.png" alt="" />
+            <img src="/protfolioVite/assets/img/linkedin.png" alt="" />
         </Link>
         <Link >
-            <img src="/assets/img/twitter.png" alt="" />
+            <img src="/protfolioVite/assets/img/twitter.png" alt="" />
         </Link>
       </div>
     </footer>

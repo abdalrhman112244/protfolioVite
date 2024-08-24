@@ -14,17 +14,17 @@ const Contact = () => {
       <div className="containerContact">
         <div className="ContactPart1">
           <CardContent
-            imgC="/assets/img/T.png"
+            imgC="/protfolioVite/assets/img/T.png"
             spanC="Call me"
             pC="+963940351643"
           />
           <CardContent
-            imgC="/assets/img/E.png"
+            imgC="/protfolioVite/assets/img/E.png"
             spanC="Email me"
             pC="abdalrhmanberkdar5@gmail.com"
           />
           <CardContent
-            imgC="/assets/img/T.png"
+            imgC="/protfolioVite/assets/img/T.png"
             spanC="Address"
             pC="Latakia,syria"
           />

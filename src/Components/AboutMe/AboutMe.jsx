@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <div id="AboutMe" className="AboutMe">
       <div className="AboutMePart1">
-        <img src="/assets/img/Group 1000001803.png" alt="" />
+        <img src="/protfolioVite/assets/img/Group 1000001803.png" alt="" />
       </div>
       <div className="AboutMePart2">
         <div className="titleAbout">

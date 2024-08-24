@@ -71,57 +71,57 @@ function SliderProject() {
       >
         <MyProjectsCard
           gitHubEmail="https://github.com/abdalrhman112244"
-          imgPriject="/assets/img/p2.png"
+          imgPriject="/protfolioVite/assets/img/p2.png"
           PageProjects="/Projects/1"
           h3Card="Headphones selling site"
           pCard="Html-Css3-Vanilla javscript"
           demoProject="https://abdalrhman112244.github.io/abdalrhmanberkdar/"
-          iconDemo="/assets/img/i1.svg"
+          iconDemo="/protfolioVite/assets/img/i1.svg"
         />
         <MyProjectsCard
           gitHubEmail="https://github.com/abdalrhman112244"
-          imgPriject="/assets/img/p1.png"
+          imgPriject="/protfolioVite/assets/img/p1.png"
           PageProjects="/Projects/2"
           h3Card="Travel site"
           pCard="React.js"
           demoProject="https://abdalrhman112244.github.io/abdalrhmanberkdar/"
-          iconDemo="/assets/img/i1.svg"
+          iconDemo="/protfolioVite/assets/img/i1.svg"
         />
         <MyProjectsCard
           gitHubEmail="https://github.com/abdalrhman112244"
-          imgPriject="/assets/img/p3.png"
+          imgPriject="/protfolioVite/assets/img/p3.png"
           PageProjects="/Projects/3"
           h3Card="Rock paper scissors game"
           pCard="Html-Css3-Vanilla javscript"
           demoProject="https://abdalrhman112244.github.io/abdalrhmanberkdar/"
-          iconDemo="/assets/img/i1.svg"
+          iconDemo="/protfolioVite/assets/img/i1.svg"
         />
         <MyProjectsCard
           gitHubEmail="https://github.com/abdalrhman112244"
-          imgPriject="/assets/img/p4.png"
+          imgPriject="/protfolioVite/assets/img/p4.png"
           PageProjects="/Projects/4"
           h3Card="Personal website"
           pCard="Html-Css3-Vanilla javscript"
           demoProject="https://abdalrhman112244.github.io/abdalrhmanberkdar/"
-          iconDemo="/assets/img/i1.svg"
+          iconDemo="/protfolioVite/assets/img/i1.svg"
         />
         <MyProjectsCard
           gitHubEmail="https://github.com/abdalrhman112244"
-          imgPriject="/assets/img/p5.png"
+          imgPriject="/protfolioVite/assets/img/p5.png"
           PageProjects="/Projects/5"
           h3Card="Educational Platform"
           pCard="Html-Css3-Vanilla javscript"
           demoProject="https://abdalrhman112244.github.io/abdalrhmanberkdar/"
-          iconDemo="/assets/img/i1.svg"
+          iconDemo="/protfolioVite/assets/img/i1.svg"
         />
         <MyProjectsCard
           gitHubEmail="https://github.com/abdalrhman112244"
-          imgPriject="/assets/img/p6.png"
+          imgPriject="/protfolioVite/assets/img/p6.png"
           PageProjects="/Projects/6"
           h3Card="Mobile phone sales site"
           pCard="Html-Css3-Vanilla javscript"
           demoProject="https://abdalrhman112244.github.io/abdalrhmanberkdar/"
-          iconDemo="/assets/img/i1.svg"
+          iconDemo="/protfolioVite/assets/img/i1.svg"
         />
       </Slider>
     </div>

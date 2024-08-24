@@ -15,19 +15,19 @@ const Hero = ({ name, des, ref }) => {
       <div className="HeroPart2">
         <div className="GropImg">
           <div className="square"></div>
-          <img src="/assets/img/r1.png" alt="" />
+          <img src="/protfolioVite/assets/img/r1.png" alt="" />
         </div>
         <div className="iconfollow">
           <p>Follow me on:</p>
           <div className="allIcon">
             <Link>
-              <img src="/assets/img/facebook-4 1.png" alt="" />
+              <img src="/protfolioVite/assets/img/facebook-4 1.png" alt="" />
             </Link>
             <Link>
-              <img src="/assets/img/instagram-5 1.png" alt="" />
+              <img src="/protfolioVite/assets/img/instagram-5 1.png" alt="" />
             </Link>
             <Link>
-              <img src="/assets/img/linkedin-icon-2 1.png" alt="" />
+              <img src="/protfolioVite/assets/img/linkedin-icon-2 1.png" alt="" />
             </Link>
           </div>
         </div>

@@ -34,7 +34,7 @@ function App() {
         <NavBar titleLogo="EN.AbdAlRhman" menu={menu} />
         <Routes>
           <Route path="/" element = {<Home />}/>
-          <Route path="/Projects/:id" element = {<Projects />}/>
+          <Route path="/Projects" element = {<Projects />}/>
           </Routes>
         <Footer /> 
     </>
