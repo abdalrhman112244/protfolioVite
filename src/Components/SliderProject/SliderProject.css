@@ -1,0 +1,53 @@
+.slider-container {
+    width: 90vw !important;
+    margin: 3rem auto;
+}
+
+.slider-container .gropBtnsT {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.slider-container .gropBtnsT .PrevNext button {
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.slider-container .gropBtnsT .PrevNext button svg {
+    font-size: 35px;
+    color: #0C96E2;
+}
+
+.slider-container .gropBtnsT .PrevNext button svg:hover {
+    color: #017abb;
+}
+
+.slick-arrow {
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+    .slider-container {
+        width: 76vw !important;
+    }
+
+
+}
+
+@media screen and (max-width:415px) {
+    .slider-container .gropBtnsT {
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+    .slider-container .gropBtnsT .SectionTitle {
+        margin: 1rem;
+        text-align: center;
+    }
+
+}

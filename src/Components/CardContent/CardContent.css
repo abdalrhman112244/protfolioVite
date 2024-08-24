@@ -1,0 +1,29 @@
+.CardContent {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+}
+
+.CardContent .bodyCardContent span {
+    font-weight: 400;
+    color: #92929D;
+    font-family: "Inter", sans-serif;
+}
+
+.CardContent .bodyCardContent p {
+    font-weight: 500;
+    color: #1D2130;
+}
+@media screen and (max-width:400px) {
+    .CardContent .bodyCardContent span{
+        font-size: 14px;
+    }
+    .CardContent .bodyCardContent p{
+        font-size: 14px;
+    }
+    .CardContent{
+        flex-direction: column;
+        text-align: center;
+    }
+}

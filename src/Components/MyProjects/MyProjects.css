@@ -1,0 +1,48 @@
+.MyProjects{
+    margin: 5rem 0px;
+}
+.MyProjects .TitleMyProjects{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 2rem;
+}
+.MyProjects .TitleMyProjects .SectionTitle{
+    width: 381px;
+}
+.MyProjects .TitleMyProjects button{
+    background-color: #0C96E2;
+    width: 163px;
+    height: 50px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.containerCard{
+    margin: 0px 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+@media screen and (max-width:600px) {
+    .MyProjects {
+        margin: 0px;
+        margin-bottom: 2rem;
+    }
+    .MyProjects .TitleMyProjects{
+        justify-content: center;
+        padding: 2rem;
+        text-align: center;
+    }
+}

@@ -1,0 +1,29 @@
+.SectionTitle {
+    margin-bottom: 3rem;
+}
+
+.SectionTitle p {
+    color: #0C96E2;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.SectionTitle h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #282938;
+}
+
+.SectionTitle h1 span {
+    color: #0C96E2;
+}
+
+@media screen and (max-width:992px) {
+    .SectionTitle p {
+        font-size: 14px;
+    }
+
+    .SectionTitle h1 {
+        font-size: 28px;
+    }
+}

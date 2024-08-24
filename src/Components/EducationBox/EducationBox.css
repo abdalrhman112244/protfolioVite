@@ -1,0 +1,38 @@
+.ContainerE {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.ContainerE::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: -31px;
+    border-style: dashed;
+    border-color: #1D2939;
+    border-width: 2px;
+}
+
+.Item {
+    margin-bottom: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.Item:last-child {
+    margin-bottom: 0px;
+}
+
+.Dot {
+    height: 21px;
+    width: 21px;
+    background-color: #0C96E2;
+    position: absolute;
+    outline: 2px dashed #1D2939;
+    left: -40px;
+    border-radius: 50%;
+    top: 0px;
+}

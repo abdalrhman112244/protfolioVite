@@ -1,0 +1,91 @@
+.DesCardP {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 7rem 2rem 1rem 2rem;
+}
+
+.DesCardP img {
+    width: 45%;
+}
+
+.DesCardP .bodyDesCardP {
+    width: 50%;
+}
+
+.DesCardP .bodyDesCardP .gropBtnPS {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    color: #1D2130;
+}
+
+.DesCardP .bodyDesCardP .gropBtnPS h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.DesCardP .bodyDesCardP .gropBtnPS span {
+    font-weight: 500;
+    font-size: 14px;
+    color: #A6A6A6;
+}
+
+.DesCardP .bodyDesCardP .gropBtnPS button {
+    background: none;
+    border: none;
+    outline: none;
+    width: 60px;
+}
+
+.DesCardP .bodyDesCardP p {
+    padding-bottom: 1rem;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.DesCardP .bodyDesCardP .InfoProject p {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.DesCardP .bodyDesCardP .InfoProject p span {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.DesCardP .bodyDesCardP button {
+    width: 160px;
+    height: 50px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    background-color: #0C96E2;
+    font-family: "Inter", sans-serif;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:992px) {
+    .DesCardP {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 7rem  0rem 2rem 0px;
+    }
+
+    .DesCardP img {
+        width: 90%;
+    }
+
+    .DesCardP .bodyDesCardP {
+        width: 90%;
+    }
+}

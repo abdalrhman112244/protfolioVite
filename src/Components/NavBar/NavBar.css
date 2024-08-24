@@ -1,0 +1,115 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 36px;
+    width: 100vw;
+    position: fixed;
+    padding: 2rem;
+    left:50%;
+    transform: translatex(-50%);
+    z-index: 99999;
+    -webkit-transform: translatex(-50%);
+    -moz-transform: translatex(-50%);
+    -ms-transform: translatex(-50%);
+    -o-transform: translatex(-50%);
+    background-color: white;
+}
+
+nav h1 {
+    color: #1D2130;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #1D2130;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+nav ul li a.active {
+    color: #0C96E2;
+}
+
+nav .DarkLight {
+    background: none;
+    outline: none;
+    border: none;
+}
+
+nav .DarkLight svg:last-child {
+    display: none;
+}
+
+nav .DarkLight svg {
+    font-size: 25px;
+    color: #1D2130;
+}
+
+nav .barsMenu {
+    background: none;
+    border: none;
+}
+
+nav .barsMenu svg {
+    font-size: 25px;
+    color: #1D2130;
+}
+
+.GNavBtn {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    gap: 1.5rem;
+    text-align: center;
+    z-index: 999;
+    position: fixed;
+}
+
+.GNavBtn.active1 {
+    display: flex;
+}
+
+.GNavBtn ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.GNavBtn ul li a{
+    color: #1D2130;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.GNavBtn ul li a.active{
+    color: #0C96E2;
+}
+.barsMenu {
+    display: none;
+}
+
+@media screen and (max-width:992px) {
+
+    nav ul,
+    nav button {
+        display: none;
+    }
+
+    .barsMenu {
+        display: block;
+    }
+}

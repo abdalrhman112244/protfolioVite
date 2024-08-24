@@ -1,0 +1,23 @@
+.Contact {
+    padding: 2rem;
+}
+
+.containerContact {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.containerContact .ContactPart1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+@media screen and (max-width:400px) {
+    .containerContact{
+        align-items: center;
+        justify-content: center;
+    }
+}

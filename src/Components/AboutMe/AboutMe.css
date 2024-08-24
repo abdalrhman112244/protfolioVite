@@ -1,0 +1,39 @@
+.AboutMe {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    margin: 4rem 0px;
+}
+
+.AboutMe .AboutMePart1,
+.AboutMe .AboutMePart2 {
+    width: 50%;
+}
+
+.AboutMe .AboutMePart2 h2 {
+    color: #1D2130;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.AboutMe .AboutMePart2 p {
+    color: #1D2130;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 1rem 0px;
+}
+
+@media screen and (max-width:992px) {
+    .AboutMe {
+        margin: 1.5rem 0px;
+        flex-direction: column;
+    }
+
+    .AboutMe .AboutMePart1,
+    .AboutMe .AboutMePart2,
+    .AboutMe .AboutMePart1 img {
+        width: 100%;
+    }
+}
