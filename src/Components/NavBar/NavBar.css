@@ -6,7 +6,7 @@ nav {
     width: 100vw;
     position: fixed;
     padding: 2rem;
-    left:50%;
+    left: 50%;
     transform: translatex(-50%);
     z-index: 99999;
     -webkit-transform: translatex(-50%);
@@ -16,10 +16,18 @@ nav {
     background-color: white;
 }
 
+.app.dark nav {
+    background-color: #1B2431;
+}
+
 nav h1 {
     color: #1D2130;
     font-size: 24px;
     font-weight: 600;
+}
+
+.app.dark nav h1 {
+    color: white;
 }
 
 nav ul {
@@ -35,6 +43,10 @@ nav ul li a {
     font-weight: 500;
 }
 
+.app.dark nav ul li a {
+    color: white;
+}
+
 nav ul li a.active {
     color: #0C96E2;
 }
@@ -45,13 +57,13 @@ nav .DarkLight {
     border: none;
 }
 
-nav .DarkLight svg:last-child {
-    display: none;
-}
-
 nav .DarkLight svg {
     font-size: 25px;
     color: #1D2130;
+}
+
+.app.dark nav .DarkLight svg {
+    color: white;
 }
 
 nav .barsMenu {
@@ -78,6 +90,10 @@ nav .barsMenu svg {
     position: fixed;
 }
 
+.app.dark .GNavBtn {
+    background-color: #1D2130;
+}
+
 .GNavBtn.active1 {
     display: flex;
 }
@@ -89,17 +105,44 @@ nav .barsMenu svg {
     gap: 1.5rem;
 }
 
-.GNavBtn ul li a{
+.GNavBtn ul li a {
     color: #1D2130;
     text-decoration: none;
     font-weight: 500;
     font-size: 1rem;
 }
-.GNavBtn ul li a.active{
+
+.app.dark .GNavBtn ul li a {
+    color: white;
+}
+
+.GNavBtn ul li a.active,
+.app.dark .GNavBtn ul li a.active {
     color: #0C96E2;
 }
+
 .barsMenu {
     display: none;
+    cursor: pointer;
+}
+
+.barsMenu svg {
+    color: #1D2130;
+}
+
+.app.dark .barsMenu svg {
+    color: white;
+}
+
+.GNavBtn button {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    color: #1D2130;
+}
+.app.dark .GNavBtn button{
+    color: white;
 }
 
 @media screen and (max-width:992px) {

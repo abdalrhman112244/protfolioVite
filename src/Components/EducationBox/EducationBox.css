@@ -15,6 +15,9 @@
     border-color: #1D2939;
     border-width: 2px;
 }
+.app.dark .ContainerE::before {
+    border-color: white;
+}
 
 .Item {
     margin-bottom: 40px;
@@ -35,4 +38,7 @@
     left: -40px;
     border-radius: 50%;
     top: 0px;
+}
+.app.dark .Dot{
+    outline: white 2px dashed;
 }

@@ -5,7 +5,7 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div className="Contact">
+    <div id="Contact" className="Contact">
       <SectionTitle
         Des="Contact"
         Title="Let’s Discuss Your "

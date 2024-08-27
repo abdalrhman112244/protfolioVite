@@ -4,3 +4,11 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+.light{
+    color: #1D2130;
+    background-color: white;
+}
+.dark{
+    background-color: #1B2431;
+    color: white !important;
+}

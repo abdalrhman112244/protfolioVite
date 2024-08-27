@@ -1,12 +1,19 @@
 import React, { useState } from "react";
 import { IoMoonSharp, IoSunny } from "react-icons/io5";
-import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { HiOutlineXMark } from "react-icons/hi2";
+import { HashLink as Link } from "react-router-hash-link";
 
-const NavBar = ({ titleLogo, menu }) => {
+const NavBar = ({ titleLogo, menu, theme, setTheme }) => {
   const [navItemM, setNavItemM] = useState(false);
+  const [navThem, setNavThem] = useState(theme === "dark");
+
+  const toggleTheme = () => {
+    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
+    setNavThem((prevNavThem) => !prevNavThem);
+  };
+
   return (
     <>
       <nav>
@@ -15,21 +22,21 @@ const NavBar = ({ titleLogo, menu }) => {
           {menu.map((element, index) => {
             return (
               <li key={index}>
-                <NavLink
+                <Link
                   to={element.url}
                   className={({ isActive }) => (isActive ? "active" : "")}
                 >
                   {element.titleName}
-                </NavLink>
+                </Link>
               </li>
             );
           })}
         </ul>
-        <button className="DarkLight">
-          <IoMoonSharp />
-          <IoSunny />
+        <button className="DarkLight" onClick={toggleTheme}>
+          <IoMoonSharp style={{ display: navThem ? "none" : "block" }} />
+          <IoSunny style={{ display: navThem ? "block" : "none" }} />
         </button>
-        <button className="barsMenu" onClick={() => setNavItemM(!navItemM)}>
+        <button className="barsMenu" onClick={() => setNavItemM((prevNavItemM) => !prevNavItemM)}>
           <HiMenuAlt3 style={{ display: navItemM ? "none" : "block" }} />
           <HiOutlineXMark style={{ display: navItemM ? "block" : "none" }} />
         </button>
@@ -39,19 +46,19 @@ const NavBar = ({ titleLogo, menu }) => {
           {menu.map((element, index) => {
             return (
               <li key={index}>
-                <NavLink
+                <Link
                   to={element.url}
                   className={({ isActive }) => (isActive ? "active" : "")}
                 >
                   {element.titleName}
-                </NavLink>
+                </Link>
               </li>
             );
           })}
         </ul>
-        <button>
-          <IoMoonSharp />
-          <IoSunny />
+        <button onClick={toggleTheme}>
+          <IoMoonSharp style={{ display: navThem ? "none" : "block" }} />
+          <IoSunny style={{ display: navThem ? "block" : "none" }} />
         </button>
       </div>
     </>

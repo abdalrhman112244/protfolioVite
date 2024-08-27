@@ -7,13 +7,13 @@ const Footer = () => {
       <p>@ 2024. All Rights Reserved</p>
       <p>Develpoment by AbdAlRhman</p>
       <div className="GropS">
-        <Link >
+        <Link to="https://www.facebook.com/abdbero" >
             <img src="/protfolioVite/assets/img/facebook.png" alt="" />
         </Link>
-        <Link >
+        <Link to="https://www.instagram.com/abdalrhman__berkdar?igsh=MXRrcWR6NmQ0N2Vkdw==" >
             <img src="/protfolioVite/assets/img/instagram.png" alt="" />
         </Link>
-        <Link >
+        <Link to="https://www.linkedin.com/in/abd-al-rhman-berkdar-43b8b227a/">
             <img src="/protfolioVite/assets/img/linkedin.png" alt="" />
         </Link>
         <Link >

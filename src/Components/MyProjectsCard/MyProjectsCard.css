@@ -8,15 +8,12 @@
     background-size: cover;
     object-fit: cover;
 }
-
-.MyProjectsCard .bodeyCardProject {
-    color: #1D2130;
+.MyProjectsCard .bodeyCardProject h3{
+    cursor: pointer;
 }
-
 .MyProjectsCard .bodeyCardProject a {
     font-size: 22px;
     font-weight: 600;
-    color: #1D2130;
     text-decoration: none;
 }
 

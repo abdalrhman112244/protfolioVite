@@ -13,7 +13,6 @@
 
 .CardContent .bodyCardContent p {
     font-weight: 500;
-    color: #1D2130;
 }
 @media screen and (max-width:400px) {
     .CardContent .bodyCardContent span{

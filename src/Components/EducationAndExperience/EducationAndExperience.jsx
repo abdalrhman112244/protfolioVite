@@ -7,7 +7,7 @@ import { FaArrowUp } from "react-icons/fa";
 const EducationAndExperience = () => {
 
   return (
-    <div className="EducationAndExperience">
+    <div id="Education" className="EducationAndExperience">
       <SectionTitle
         Des="Education and Experience"
         Title="Education & Experience"

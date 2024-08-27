@@ -4,7 +4,7 @@ import "./MyProjectsCard.css";
 const MyProjectsCard = ({
   idCard,
   gitHubEmail,
-  imgPriject,
+  imgProject,
   PageProjects,
   h3Card,
   pCard,
@@ -19,10 +19,10 @@ const MyProjectsCard = ({
   return (
     <div className={`MyProjectsCard card-${idCard}`}>
       <Link to={gitHubEmail}>
-        <img src={imgPriject} alt="" className="photoProject" />
+        <img src={imgProject} alt="" className="photoProject" />
       </Link>
       <div className="bodeyCardProject">
-          <h3 onClick={handleCardClick}>{h3Card}</h3>
+        <h3 onClick={handleCardClick}>{h3Card}</h3>
         <div className="GropPB">
           <p>{pCard}</p>
           <Link to={demoProject}>
