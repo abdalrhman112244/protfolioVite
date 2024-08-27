@@ -25,6 +25,9 @@
     font-size: 28px;
     font-weight: 600;
 }
+.app.dark .DesCardP .bodyDesCardP .gropBtnPS h3{
+    color: white;
+}
 
 .DesCardP .bodyDesCardP .gropBtnPS span {
     font-weight: 500;
