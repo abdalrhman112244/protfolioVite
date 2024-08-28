@@ -5,8 +5,11 @@
     padding: 7rem 2rem 1rem 2rem;
 }
 
-.DesCardP img {
+.DesCardP .imgProject {
     width: 45%;
+    height: 330px;
+    background-size: contain;
+    object-fit: cover;
 }
 
 .DesCardP .bodyDesCardP {
@@ -84,7 +87,7 @@
         padding: 7rem  0rem 2rem 0px;
     }
 
-    .DesCardP img {
+    .DesCardP .imgProject {
         width: 90%;
     }
 

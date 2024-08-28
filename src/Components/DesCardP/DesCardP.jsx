@@ -4,7 +4,7 @@ const DesCardP = ({project}) => {
   if(project)
   return (
     <div className="DesCardP">
-      <img src={project?.imgProject} alt="" />
+      <img className="imgProject" src={project?.imgProject} alt="" />
       <div className="bodyDesCardP">
         <div className="gropBtnPS">
           <div className="gropPS">
