@@ -12,7 +12,7 @@ function App() {
   const menu = [
     {
       titleName: "Home",
-      url: "#Hero",
+      url: "/",
     },
     {
       titleName: "About me",

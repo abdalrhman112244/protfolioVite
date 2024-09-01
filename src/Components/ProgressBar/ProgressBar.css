@@ -48,6 +48,10 @@
     width: 90%;
     animation-delay: 0.3s;
 }
+.skill-per.Tailwind {
+    width: 80%;
+    animation-delay: 0.3s;
+}
 
 @keyframes progress {
     0% {

@@ -49,6 +49,15 @@ const ProgressBar = () => {
           </span>
         </div>
       </div>
+      <div className="skill-box">
+        <span className="title">Tailwind Css</span>
+        <div className="skill-bar">
+          <span className="skill-per Tailwind">
+            <div className="circle"></div>
+            <span className="tooltip">80%</span>
+          </span>
+        </div>
+      </div>
     </>
   );
 };

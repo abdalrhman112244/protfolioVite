@@ -11,9 +11,10 @@ const AboutMe = () => {
         <div className="titleAbout">
           <h2>About Me</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-            doloremque magnam fuga pariatur quos. Recusandae asperiores
-            consequuntur quae quisquam quas
+            My name is AbdAlRhman Berkdar from Syria, living in Latakia. I am
+            21 years old and I have some hobbies, including football and others.
+            I entered the field of website development out of love and a desire
+            to learn and develop myself.
           </p>
         </div>
         <ProgressBar />

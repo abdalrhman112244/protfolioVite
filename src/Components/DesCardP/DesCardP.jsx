@@ -26,7 +26,6 @@ const DesCardP = ({ project }) => {
             </button>
           </div>
         </div>
-
         <div className="bodyDesCardP">
           <div className="gropBtnPS">
             <div className="gropPS">

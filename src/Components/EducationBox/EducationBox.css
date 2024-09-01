@@ -29,6 +29,10 @@
     margin-bottom: 0px;
 }
 
+.Content{
+    max-width: 550px;
+}
+
 .Dot {
     height: 21px;
     width: 21px;
